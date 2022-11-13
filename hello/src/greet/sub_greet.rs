@@ -7,7 +7,7 @@
 /// use hello::sub_hello;
 ///
 /// let greeting = sub_hello::hello_to_world();
-/// assert_eq!("Hello, World!", greeting);
+/// assert_eq!("Hello, World2!", greeting);
 /// ```
 fn greet_to_world(s: &str) -> String {
     s.to_string() + ", World!"
