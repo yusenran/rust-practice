@@ -1,5 +1,7 @@
-mod hello;
+mod greet;
+
+use greet::sub_greet;
 
 fn main() {
-    hello::sub_hello::hello();
+    println!("{}", sub_greet::hello_to_world());
 }
