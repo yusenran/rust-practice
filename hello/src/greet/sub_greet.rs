@@ -23,6 +23,6 @@ mod tests {
 
     #[test]
     fn test_greet_to_world() {
-        assert_eq!(greet_to_world("Hello2"), "Hello, World!");
+        assert_eq!(greet_to_world("Hello"), "Hello, World!");
     }
 }
